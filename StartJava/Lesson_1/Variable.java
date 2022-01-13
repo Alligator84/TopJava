@@ -1,7 +1,6 @@
 class Variable {
 	
 	public static void main(String[] args) {
-
 		byte numberOfKeys = 120;
 		short ramMegabytes = 16_384;
 		int ssdMegabytes = 524_288;
