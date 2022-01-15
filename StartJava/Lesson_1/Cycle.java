@@ -7,23 +7,22 @@ class Cycle {
 
 		System.out.println();
 
-		int i = 6;
-		while (i >= -6) {
-			System.out.print(i + " ");
-			i += -2;
+		int counter = 6;
+		while (counter >= -6) {
+			System.out.print(counter + " ");
+			counter += -2;
 		}
 
 		System.out.println();
 
-		i = 10;
-		int result = 0;
+		counter = 10;
+		int sumOdd = 0;
 		do {
-			if (i % 2 != 0) {
-				result += i;
+			if (counter % 2 != 0) {
+				sumOdd += counter;
 			}
-			i++;
-		} while (i <= 20);	
-
-		System.out.print(result);
+			counter++;
+		} while (counter <= 20);	
+		System.out.print(sumOdd);
 	}
 }
