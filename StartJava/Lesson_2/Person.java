@@ -5,7 +5,7 @@ class Person {
      int growth = 202;
      int weight = 145;
      int age = 23;
-
+     
      void walk() {
         System.out.println("Walking");
      }
