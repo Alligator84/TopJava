@@ -3,16 +3,16 @@ class WolfTest {
     public static void main(String[] args) {
         Wolf firstWolf = new Wolf();
 
-        firstWolf.isMale = true;
-        System.out.println(firstWolf.isMale);
-        firstWolf.nickName = "Volchara";
-        System.out.println(firstWolf.nickName);
-        firstWolf.weight = 67;
-        System.out.println(firstWolf.weight);
-        firstWolf.age = 10;
-        System.out.println(firstWolf.age);
-        firstWolf.color = "grey";
-        System.out.println(firstWolf.color);
+        firstWolf.setIsMale(true);
+        System.out.println(firstWolf.getIsMale());
+        firstWolf.setNickName("Volchara");
+        System.out.println(firstWolf.getNickName());
+        firstWolf.setWeight(67);
+        System.out.println(firstWolf.getWeight());
+        firstWolf.setAge(10);
+        System.out.println(firstWolf.getAge());
+        firstWolf.setColor("grey");
+        System.out.println(firstWolf.getColor());
 
         firstWolf.walk();
         firstWolf.sit();
